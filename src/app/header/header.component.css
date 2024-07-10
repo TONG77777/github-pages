@@ -1,0 +1,35 @@
+i {
+  @apply flex justify-center items-center size-9 text-white;
+}
+
+.picture {
+  @apply bg-slate-300 size-10 rounded-full;
+}
+
+.header {
+  @apply flex justify-between items-center border-b-2 border-white p-2;
+}
+
+/* .header-left {
+  @apply flex justify-start;
+} */
+
+.header-right {
+  @apply flex justify-end items-center gap-1;
+}
+
+.text-button {
+  @apply bg-transparent text-white p-2;
+}
+
+.header-bottom {
+  @apply flex justify-between items-center pt-3 pb-16;
+}
+
+.btn-icon {
+  @apply rounded-lg py-1 pl-3 pr-4 flex gap-1 items-center text-white;
+}
+
+.header-btn-group {
+  @apply flex;
+}
