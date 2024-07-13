@@ -1,0 +1,34 @@
+.icon-color {
+  @apply flex justify-center items-center rounded-lg 
+  text-2xl size-12  bg-red-200 opacity-80;
+  i {
+    @apply text-red-400;
+  }
+}
+
+i {
+  @apply flex justify-center items-center
+  size-12 text-2xl text-slate-400;
+}
+
+.card {
+  width: 380px;
+  height: 284px;
+  @apply flex flex-col justify-between rounded-lg p-8 bg-white;
+}
+
+.card-top-container {
+  @apply flex justify-between items-center;
+}
+
+.card-bottom-container {
+  @apply flex flex-col gap-1;
+}
+
+.card-bottom-title {
+  @apply text-lg font-bold;
+}
+
+.card-bottom-message {
+  @apply text-base;
+}
