@@ -1,0 +1,27 @@
+h4 {
+  @apply font-semibold text-xl;
+}
+
+.announcement-container {
+  width: 460px;
+  @apply flex p-6 rounded-lg flex-col justify-between gap-4;
+}
+
+.announcement-content {
+  @apply flex flex-col gap-4;
+}
+.announcement-content-detail {
+  @apply border-b-2;
+}
+
+.announcement-content-title {
+  @apply font-semibold text-lg text-slate-700;
+}
+
+.announcement-content-message {
+  @apply text-lg  text-slate-700;
+}
+
+.btn-default {
+  @apply font-semibold text-lg text-center rounded-lg py-1 px-3 text-slate-500 border-2 border-slate-400;
+}
