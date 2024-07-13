@@ -1,0 +1,40 @@
+.list-container {
+  width: 460px;
+  @apply bg-white rounded-lg flex flex-col gap-4 px-6 py-8;
+}
+
+h3 {
+  @apply text-slate-700 font-semibold text-xl;
+}
+
+h1 {
+  @apply text-slate-700 font-semibold text-lg;
+}
+
+p {
+  @apply text-slate-700;
+}
+
+.list-content-pic {
+  @apply rounded-full size-10 bg-slate-500;
+}
+
+.btn-rounded {
+  @apply rounded-3xl py-1 px-3 text-slate-700 border-2 border-slate-400;
+}
+
+.btn-default {
+  @apply font-semibold text-lg text-center rounded-lg py-1 px-3 text-slate-500 border-2 border-slate-400;
+}
+
+.list-content {
+  @apply flex justify-between items-center border-b-2 border-slate-200;
+
+  .card-profile-top-left {
+    @apply flex justify-start items-center px-6 py-4 gap-4;
+
+    .list-content-detail {
+      @apply flex flex-col gap-1;
+    }
+  }
+}
