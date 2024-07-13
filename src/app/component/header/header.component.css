@@ -1,0 +1,15 @@
+i {
+  @apply flex justify-center items-center size-9 text-white;
+}
+
+.picture {
+  @apply bg-slate-300 size-10 rounded-full;
+}
+
+.header-container {
+  @apply flex justify-between items-center border-b-2 border-white p-2;
+}
+
+.header-right {
+  @apply flex justify-end items-center gap-1;
+}
