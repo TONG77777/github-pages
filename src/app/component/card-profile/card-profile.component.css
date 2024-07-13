@@ -1,0 +1,38 @@
+h3 {
+  @apply font-semibold text-2xl;
+}
+
+p {
+  @apply font-semibold text-xs text-slate-600;
+}
+
+.card-profile {
+  width: 780px;
+}
+
+.card-profile-top {
+  @apply rounded-t-lg flex justify-between items-center p-5 pt-7 pb-12;
+
+  .card-profile-top-left {
+    @apply flex justify-start items-center gap-4;
+  }
+  .card-profile-picture {
+    @apply rounded-full size-16 bg-slate-500;
+  }
+
+  .card-profile-title {
+    @apply flex-col;
+  }
+
+  .btn-default {
+    @apply font-semibold text-lg rounded-lg py-1 px-3 flex gap-1 items-center text-slate-700 border-2 border-slate-400;
+  }
+}
+
+.card-profile-bottom {
+  @apply rounded-b-lg bg-slate-200;
+
+  .card-btn-group {
+    @apply flex justify-between px-8 py-3 font-semibold text-slate-500;
+  }
+}
