@@ -1,5 +1,5 @@
 <div class="bg-slate-100">
-  <div class="bg-primary">
+  <div class="bg-primary px-6">
     <div class="header-container">
       <div class="header-left"><i class="fa-brands fa-github-alt"></i></div>
       <div class="header-right">
@@ -9,15 +9,17 @@
     </div>
     <app-nav></app-nav>
   </div>
-  <div class="content">
-    <div class="content-left">
-      <app-card-profile></app-card-profile>
-      <app-card></app-card>
+  <div class="px-6">
+    <div class="content relative bottom-12">
+      <div class="content-left">
+        <app-card-profile></app-card-profile>
+        <app-card></app-card>
+      </div>
+      <div class="content-right">
+        <app-announcement></app-announcement>
+        <app-list></app-list>
+      </div>
     </div>
-    <div class="content-right">
-      <app-announcement></app-announcement>
-      <app-list></app-list>
-    </div>
+    <app-footer></app-footer>
   </div>
-  <app-footer></app-footer>
 </div>
