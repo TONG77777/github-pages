@@ -1,8 +1,40 @@
-.icon-color {
+.icon-color-red {
   @apply flex justify-center items-center rounded-lg 
   text-2xl size-12  bg-red-200 opacity-80;
   i {
     @apply text-red-400;
+  }
+}
+
+.icon-color-blue {
+  @apply flex justify-center items-center rounded-lg 
+  text-2xl size-12  bg-blue-200 opacity-80;
+  i {
+    @apply text-blue-400;
+  }
+}
+
+.icon-color-green {
+  @apply flex justify-center items-center rounded-lg 
+  text-2xl size-12  bg-green-200 opacity-80;
+  i {
+    @apply text-green-400;
+  }
+}
+
+.icon-color-yellow {
+  @apply flex justify-center items-center rounded-lg 
+  text-2xl size-12  bg-yellow-200 opacity-80;
+  i {
+    @apply text-yellow-400;
+  }
+}
+
+.icon-color-purple {
+  @apply flex justify-center items-center rounded-lg 
+  text-2xl size-12  bg-purple-200 opacity-80;
+  i {
+    @apply text-purple-400;
   }
 }
 
@@ -11,9 +43,11 @@ i {
   size-12 text-2xl text-slate-400;
 }
 
+.card-list {
+  @apply grid grid-cols-2 gap-4;
+}
+
 .card {
-  width: 380px;
-  height: 284px;
   @apply flex flex-col justify-between rounded-lg p-8 bg-white;
 }
 

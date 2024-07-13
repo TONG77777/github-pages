@@ -1,5 +1,4 @@
 .list-container {
-  width: 460px;
   @apply bg-white rounded-lg flex flex-col gap-4 px-6 py-8;
 }
 

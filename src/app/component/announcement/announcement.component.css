@@ -3,7 +3,6 @@ h4 {
 }
 
 .announcement-container {
-  width: 460px;
   @apply flex p-6 rounded-lg flex-col justify-between gap-4 bg-white;
 }
 
