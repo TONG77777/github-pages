@@ -1,0 +1,15 @@
+.nav-container {
+  @apply flex justify-between items-center pt-3 pb-16;
+}
+
+.nav-btn-group {
+  @apply flex;
+}
+
+.btn-text {
+  @apply bg-transparent text-white p-2;
+}
+
+.btn-icon {
+  @apply rounded-lg py-1 pl-3 pr-4 flex gap-1 items-center text-white;
+}
