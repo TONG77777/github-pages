@@ -8,6 +8,7 @@ p {
 
 .card-profile {
   width: 780px;
+  @apply bg-white;
 }
 
 .card-profile-top {
