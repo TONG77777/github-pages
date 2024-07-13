@@ -13,3 +13,15 @@ i {
 .header-right {
   @apply flex justify-end items-center gap-1;
 }
+
+.content {
+  @apply flex gap-4;
+
+  .content-left {
+    @apply flex flex-col gap-8;
+  }
+
+  .content-right {
+    @apply flex flex-col gap-4 basis-1/3;
+  }
+}

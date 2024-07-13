@@ -7,8 +7,7 @@ p {
 }
 
 .card-profile {
-  width: 780px;
-  @apply bg-white;
+  @apply bg-white rounded-t-lg;
 }
 
 .card-profile-top {
