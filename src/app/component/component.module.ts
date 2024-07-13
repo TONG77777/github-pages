@@ -7,6 +7,7 @@ import { NavComponent } from "./nav/nav.component";
 import { CardProfileComponent } from "./card-profile/card-profile.component";
 import { CardComponent } from "./card/card.component";
 import { AnnouncementComponent } from "./announcement/announcement.component";
+import { ListComponent } from "./list/list.component";
 
 @NgModule({
   imports: [CommonModule],
@@ -16,6 +17,7 @@ import { AnnouncementComponent } from "./announcement/announcement.component";
     NavComponent,
     CardProfileComponent,
     CardComponent,
+    ListComponent,
     AnnouncementComponent,
   ],
   exports: [HeaderComponent, NavComponent],
