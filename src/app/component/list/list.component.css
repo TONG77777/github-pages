@@ -15,7 +15,7 @@ p {
 }
 
 .list-content-pic {
-  @apply rounded-full size-10 bg-slate-500;
+  @apply rounded-full size-10;
 }
 
 .btn-rounded {
