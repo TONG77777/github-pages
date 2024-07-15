@@ -11,17 +11,17 @@ p {
 }
 
 .card-profile-top {
-  @apply rounded-t-lg flex justify-between items-center p-5 pt-7 pb-12;
+  @apply rounded-t-lg flex flex-col justify-between items-center p-5 pt-7 pb-12 sm:flex-row;
 
   .card-profile-top-left {
-    @apply flex justify-start items-center gap-4;
+    @apply flex flex-col justify-start items-center gap-4 sm:flex-row;
   }
   .card-profile-picture {
-    @apply rounded-full size-16 bg-slate-500;
+    @apply rounded-full size-16;
   }
 
   .card-profile-title {
-    @apply flex-col;
+    @apply flex-col text-center;
   }
 
   .btn-default {
@@ -33,6 +33,6 @@ p {
   @apply rounded-b-lg bg-slate-200;
 
   .card-btn-group {
-    @apply flex justify-between px-8 py-3 font-semibold text-slate-500;
+    @apply flex flex-col justify-between px-8 py-3 font-semibold text-slate-500 sm:flex-row;
   }
 }
